@@ -419,7 +419,7 @@ main{
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
 
-.recommended {
+.recommended, .basic, .limited {
     position: absolute;
     width: 120px;
     height: 31px;
@@ -430,6 +430,14 @@ main{
     background-color: var(--bitcoin-orange);
     border-radius: 8px;
     color: var(--just-white);
+}
+
+.basic {
+    background-color: var(--secondary-blue);
+}
+
+.limited {
+    background-color: var(--grey);
 }
 
 .plan-card--title {
@@ -448,11 +456,19 @@ main{
     color: black;
 }
 
-.plan-card--price span {
+.plan-card--price .seller {
     position: absolute;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 500;
     left: calc(50% - 45px);
+    top: calc(50% - 88px);
+}
+
+.plan-card--price .seller-two {
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: 500;
+    left: calc(50% - 60px);
     top: calc(50% - 88px);
 }
 
