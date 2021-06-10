@@ -366,46 +366,47 @@ main{
     background-repeat: no-repeat;
     text-align: center;
 }
- .bitcoin-img-container h2 {
+
+.bitcoin-img-container h2 {
     padding-top: 60px;
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 2.6rem;
     color: var(--just-white);
- }
+}
 
- .main-plans-container {
+.main-plans-container {
     width: 100%;
     min-width: 320px;
     padding-bottom: 70px;
     text-align: center;
- }
+}
 
- .plans--title {
+.plans--title {
     width: 90%;
     min-width: 288px;
     height: auto;
     margin: 0 auto;
     margin-bottom: 50px;
- }
+}
 
- .plans--title h2 {
+.plans--title h2 {
     padding-top: 50px;
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 2.6rem;
     color: var(--black);
- }
+}
 
- .plans--title p {
+.plans--title p {
     padding-top: 30px;
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
     color: #757575;
- }
+}
 
- .plans-container--card {
+.plans-container--card {
     position: relative;
     width: 70%;
     min-width: 230px;
@@ -416,4 +417,46 @@ main{
     background-color: var(--just-white);
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
- }
+}
+
+.recommended {
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    padding: 6px;
+    top: -15px;
+    left: calc(50% - 60px);
+    font-size: 1.2rem;
+    background-color: var(--bitcoin-orange);
+    border-radius: 8px;
+    color: var(--just-white);
+}
+
+.plan-card--title {
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: black;
+}
+
+.plan-card--price {
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 5.3rem;
+    color: black;
+}
+
+.plan-card--price span {
+    position: absolute;
+    font-size: 1.2rem;
+    font-weight: 500;
+    left: calc(50% - 45px);
+    top: calc(50% - 88px);
+}
+
+.plan-card--saving {
+    font-size: 1.2rem;
+    color: #757575;
+}
